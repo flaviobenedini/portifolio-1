@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu Portifólio</title>
 </head>
 <body>
-    <header>
+    <header class="clara">
         <h1>Desenvolvedor Web JR</h1>
         <img src="assets/images/avatar-redondo.png" alt="foto">
-        <p>Flavio Benedini, 45 anos.</p>
+        <p>Flavio Benedini, 45 anos, iniciando minha carreira com a stack <abbr title="SQL, Express, ReactJS, NodeJS">SERN</abbr>.</p>
             <nav>
                 <a href="https://wa.me/5521983672131?text=Ol%C3%A1%21%20Contrata%20n%C3%B3is%20a%C3%AA%2C%20na%20humilde." target="_blank" rel="noopener noreferrer" title="Manda um zap prá nóis">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" widht="24" height="24">
@@ -44,42 +45,30 @@
     </header>
     <main>
         <h2>HABILIDADES</h2>
-        <p>Saca só como eu sou habilidoso!</p>
+        <p class="clara">Saca só como eu sou habilidoso!</p>
             <section>
                 <h3>HARD SKILLS</h3>
                 <article>
                     <img src="assets/images/git.jpg" alt="Git" width="250" height="auto">
                     <h4>git e gitFlow</h4>
-                    <p>Estou familiarizado e não vou fazer deploy as sextas.</p>
+                    <p class="clara">Estou familiarizado e não vou fazer deploy as sextas.</p>
                 </article>
                 <article>
                     <img src="assets/images/html.jpg" alt="HTML" width="250" height="auto">
                     <h4>HTML</h4>
-                    <p>Meu HTML5 é semântico pacas.</p>
+                    <p class="clara">Meu HTML5 é semântico pacas.</p>
                 </article>
                 <article>
                     <img src="assets/images/css.jpg" alt="CSS" width="250" height="auto">
                     <h4>CSS</h4>
-                    <p>Meu estilo é muito estiloso.</p>
+                    <p class="clara">Meu CSS aplica um estilo muito estiloso.</p>
                 </article>
                 <article>
                     <img src="assets/images/js.jpg" alt="JavaScript" width="250" height="auto">
                     <h4>JavaScript</h4>
-                    <p>Faço qualquer controle em JS.</p>
+                    <p class="clara">Além de JS Vanilla, também já sei trabalhar com NodeJS e ReactJS.</p>
                 </article>
             </section>
-            <section>
-                SOFT SKILLS ****
-                <article>
-                    <ul>
-                        <li>Comunicação</li>
-                        <li>Inteligência Emocional</li>
-                        <li>Liderança</li>
-                        <li>Trabalho em Equipe</li>
-                        <li>Agile</li>
-                    </ul>
-                </article>
-            </section>  
             <section>
                 <h3>Oferta Imperdível</h3>
                 <p>Solicite um orçamento online e receba até 1% de desconto.</p>
@@ -110,6 +99,9 @@
                         <legend>Sobre a Oportunidade</legend>
                         <label for="salario">Salario</label>
                         <input type="number" name="salario" id="salario"><br>
+                        <label for="nivelDeStressDiario">Nível de estresse diário:</label>
+                        <input type="range" name="nivel-de-stress-diario" id="nivelDeStressDiario" step="1" min="0" max="100" value="0">
+                        <br>
                         <label for="vaga">Atuação da Vaga</label>
                         <select name="vaga" id="vaga">
                             <option value="" selected disabled>-- Selecione --</option>
@@ -140,6 +132,19 @@
                     <button>Me garanta na sua empresa.</button>
                 </form>
             </section>
+            <section>
+                <h3>SOFT SKILLS</h3>
+                <article>
+                    <ul class="clara">
+                        <li>Comunicação</li>
+                        <li>Inteligência Emocional</li>
+                        <li>Liderança</li>
+                        <li>Trabalho em Equipe</li>
+                        <li>Agile</li>
+                        <li>Focado em Solução</li>
+                    </ul>
+                </article>
+            </section>  
     </main>
     <aside>
         <h2>EXPERIÊNCIA PROFISSIONAL</h2>
@@ -153,10 +158,15 @@
             </ul>
         </section>
         <section>
-            REFERÊNCIAS (RECOMENDAÇÕES)
-        </section>
+            <h3>Recomendações</h3>
+            <article>
+              <cite>O Flavio é um filho muito bom! Meu filho preferido (não conte pra irmã dele). Por isso, sei que vai ser um bom dev. Palavra de mãe.</cite>
+            </article>
+            <article>
+              <cite>O Flavio é um neto muito bom! Meu neto preferido (não conte pra irmã dele). Por isso, sei que vai ser um bom dev. Palavra de avó.</cite>
+            </article>        </section>
     </aside>
-    <footer>
+    <footer class="clara">
         <ul>
             <li>
                 <a href="mailto: flavio.benedini@me.com">flavio.benedini@me.com</a>
