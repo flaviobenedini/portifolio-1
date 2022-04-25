@@ -65,7 +65,25 @@ div#artigos {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-}  
+}
+
+div#formulario {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+
+div#labels {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+}
+
+div#inputs {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+}
 
 article {
   width: 300px;
@@ -77,6 +95,10 @@ article {
   box-shadow: 4px 9px 11px 0 rgb(50 50 50 / 77%);
   margin: 10px;
 }  
+
+label {
+  padding: 2px 0;
+}
 
 h1 {
   font-size: var(--tamanho-fonte-lg);
