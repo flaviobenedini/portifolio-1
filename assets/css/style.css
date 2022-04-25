@@ -85,6 +85,13 @@ div#inputs {
   align-content: flex-start;
 }
 
+div#botoes {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 article {
   width: 300px;
   display: flex;
