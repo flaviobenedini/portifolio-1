@@ -33,6 +33,7 @@ header {
   box-shadow: 0px 10px 10px 0 rgb(50 50 50 / 77%);
   padding: 0px 0px 10px 10px;
   margin-bottom: 15px;
+  min-width: 300px;
 }  
 
 div#apresentacao {
@@ -43,7 +44,7 @@ div#apresentacao {
 }  
 
 div#texto {
-  width: 35%;
+  width: 300px;
   padding-left: 1%;
 }
 
@@ -54,7 +55,7 @@ div#artigos {
 }
 
 article {
-  width: 30%;
+  width: 300px;
 }
 
 h1 {
